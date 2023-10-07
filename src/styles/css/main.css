@@ -380,7 +380,7 @@ body {
 }
 
 /* Grid Layout */
-.container-lg {
+.container {
   margin: 0 auto;
   width: 100%;
   max-width: var(--container-lg);
@@ -613,7 +613,7 @@ body {
     flex-flow: row wrap;
   }
   .services-cards .card {
-    width: 400px;
+    width: 300px;
     flex-grow: 1;
   }
 }
