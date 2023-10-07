@@ -1,0 +1,13 @@
+/* Utilities */
+.theme-color {
+    color: var(--main-theme-color);
+}
+
+/* Grid Layout */
+.container-lg {
+    margin: auto;
+    width: 100%;
+    max-width: var(--container-lg);
+    position: relative;
+    padding: 0 1em;
+}

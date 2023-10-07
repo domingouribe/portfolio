@@ -1,0 +1,30 @@
+:root {
+    --background-color: hsl(233, 15%, 21%);
+    --main-theme-color: hsl(166, 100%, 34%);
+    --black: hsl(234, 21%, 9%);
+    --white: hsl(0, 0%, 77%);
+    --font: "Ubuntu";
+    --container-lg: 1200px;
+}
+
+/* HTML */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    background-color: var(--background-color);
+    color: var(--white);
+    padding-top: 10em;
+  display: flex;
+  flex-flow: column;
+}
