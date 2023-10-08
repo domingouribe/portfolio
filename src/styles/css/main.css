@@ -524,8 +524,8 @@ body {
 .hero {
   display: flex;
   flex-flow: column wrap;
-  height: 50vh;
   justify-content: center;
+  padding: 3em 0;
 }
 .hero__subtitle {
   line-height: 0;
@@ -571,7 +571,6 @@ body {
 
 .services {
   display: flex;
-  height: 60vh;
   flex-flow: column wrap;
 }
 
@@ -586,8 +585,9 @@ body {
 
 .services-cards {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
   gap: 2em;
+  font-size: 14px;
 }
 .services-cards .card {
   background-color: var(--black);
@@ -595,6 +595,8 @@ body {
   border-radius: 1em;
   display: flex;
   flex-flow: column wrap;
+  width: 200px;
+  flex-grow: 1;
 }
 .services-cards .card__title {
   font-size: 1.5rem;
@@ -608,14 +610,15 @@ body {
   color: var(--white);
 }
 
-@media screen and (min-width: 768px) {
-  .services-cards {
-    flex-flow: row wrap;
-  }
-  .services-cards .card {
-    width: 300px;
-    flex-grow: 1;
-  }
+.footer {
+  background-color: var(--black);
+  border-top: solid 1px var(--main-theme-color);
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: #474747;
 }
 
 /*# sourceMappingURL=main.css.map */
